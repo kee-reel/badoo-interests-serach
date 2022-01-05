@@ -1,0 +1,1 @@
+update interest set evaluated = 1 where evaluated <> 1;

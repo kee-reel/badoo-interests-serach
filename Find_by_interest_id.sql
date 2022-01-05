@@ -1,0 +1,1 @@
+select * from profile_data where id in (select profile_data_id from profile_interest where interest_id = 1728);

@@ -1,0 +1,1 @@
+delete from interest where id not in (select interest_id from profile_interest); 
